@@ -1,0 +1,47 @@
+/* svetle zelana: #5AA140
+	tmava zelena: #238200
+ */
+body {
+	background-color: #238200;
+	/* background-image: url("/img/bg.gif"); * /
+}
+
+body, p, td p {
+	color : white; /*#98B6C7;*/
+	font-size: 12px;
+	font-family : 'Arial CE',Arial,Helvetica,sans-serif;
+}
+td {
+	font-size: 12px;
+	font-family : 'Arial CE',Arial,Helvetica,sans-serif;
+}
+
+a, a:visited {
+	text-decoration : underline;
+	color : white; /*#98B6C7;*/
+	font-weight: bold;
+}
+
+a:active, a:hover {
+	text-decoration : underline;
+	color : white;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color : white;
+}
+
+
+.forum-user {
+	font-size : 12px;
+	background-color : #5AA140;
+	color : black;
+}
+
+td.forum-visitor {
+	font-size : 12px;
+	/*background-color : #496D87;*/
+	color : white;
+	font-weight: bold;
+}

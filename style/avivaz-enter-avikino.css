@@ -1,0 +1,44 @@
+body#enter {
+	vertical-align: middle;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	background: none;
+	background-color: black; /* !important*/
+}
+body#enter .flash {
+	text-align: center;
+	margin-top: -210px;
+	margin-left: -385px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 770px;
+	height: 400px;
+	visibility: visible;
+}
+body#enter .footer {
+	position: absolute;
+	background-image: url("/img/bg-minty.gif");
+	text-align: center;
+	font-family: 'Arial CE',Arial,Helvetica,sans-serif;
+	color: white;
+	width: 100%;
+	top: 50%;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	margin-top: 200px;
+	font-size: 11px;
+}
+#enter a, #enter a:visited {
+	color: white;
+	text-decoration: none;
+}
+#enter a:hover {
+	color: white;
+	text-decoration: underline;
+}
+.reader {
+  display: none;
+}

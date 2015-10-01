@@ -1,0 +1,443 @@
+body {
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #FF5B5B url("/img/bg-eeblee.gif") fixed;
+}
+
+div#container {
+	margin: 1em auto;
+	width: 790px;
+	text-align: left;
+}
+
+a { letter-spacing: 1px; }
+
+div.mainer a, div.imager a, #footer a {
+	text-decoration: underline;
+	color: #5F4601;
+}
+
+div.forumer a {
+	text-decoration: underline;
+	color: black;
+}
+
+/*a:link {
+	color: #515F8F;
+	text-decoration: none;
+}*/
+
+#sidebar a, #sidebar a:visited, #sidebar2 a, #sidebar2 a:visited {
+	color: #5F4601;
+	text-decoration: none;
+}
+
+div.mainer a:visited, div.imager a:visited,
+#footer a:visited, div.forumer a:visited {
+	color: #5F4601;
+}
+
+div.mainer a:hover, div.imager a:hover, div.forumer a:hover,
+#sidebar a:hover, #sidebar2 a:hover, #footer a:hover {
+	color: #FF5B5B;
+	text-decoration: underline;
+}
+
+/* dvojice pravidek quliva shitovskemu IE, ktere neumi poznavat parametry [] */
+#main a.aname, #main a.aname:hover, #main a.aname:visited {
+	color: black;
+	text-decoration: none;
+}
+#main a[name], #main a[name]:hover {
+	color: black;
+	text-decoration: none;
+}
+
+#header, #main, #sidebar, #sidebar2, #footer {
+	font-family : 'Arial CE',Arial,Helvetica,sans-serif;
+	color: black;
+	font-size: 75%;
+}
+
+#header {
+	height: 200px;
+	width: 700px;
+	text-align: center;
+}
+
+#sidebar {
+	width: 175px;
+	color: white;
+	float: left;
+	margin: 0;
+	margin-top: 30px;
+	padding: 0;
+	border: 0;
+}
+
+#sidebar2 {
+	width: 185px;
+	color: white;
+	float: left;
+	margin: 0;
+	margin-left: 5px;
+	margin-top: 30px;
+	padding: 0;
+	border: 0;
+}
+
+#main {
+	float: left;
+	margin-left: 5px;
+}
+
+div.mainer {
+	width: 420px;
+	overflow: hidden;
+}
+
+div.forumer {
+	width: 610px;
+	overflow: hidden;
+}
+
+div.imager {
+	width: 700px;
+}
+
+#footer {
+	clear: both;
+	margin: 0;
+	margin-bottom: 1em;
+	text-align: center;
+	float: left;
+	font-size: 70%;
+	background-color: white;
+	border-top: 10px solid black;
+	border-bottom: 10px solid black;
+	width: 100%;
+}
+
+.roh-lh, .roh-ph, .roh-ld, .roh-pd {
+	float: left;
+	width: 39px;
+	height: 41px;
+	display: inline;
+}
+
+.roh-pd { margin-bottom: 15px; }
+
+#main .roh-lh, #footer .roh-lh { background:url("/img/roh-w-lh.gif") top left no-repeat; }
+#main .roh-ph, #footer .roh-ph { background:url("/img/roh-w-ph.gif") top right no-repeat; }
+#main .roh-ld, #footer .roh-ld { background:url("/img/roh-w-ld.gif") bottom left no-repeat; }
+#main .roh-pd, #footer .roh-pd { background:url("/img/roh-w-pd.gif") bottom right no-repeat; }
+#sidebar .roh-lh, #sidebar2 .roh-lh { background:url("/img/roh-b-lh.gif") top left no-repeat; }
+#sidebar .roh-ph, #sidebar2 .roh-ph { background:url("/img/roh-b-ph.gif") top right no-repeat; }
+#sidebar .roh-ld, #sidebar2 .roh-ld { background:url("/img/roh-b-ld.gif") bottom left no-repeat; }
+#sidebar .roh-pd, #sidebar2 .roh-pd { background:url("/img/roh-b-pd.gif") bottom right no-repeat; }
+
+div.mainer .nadpis, div.mainer .spodek {
+	float: left;
+	height: 41px;
+	width: 342px;
+	background-color: white;
+}
+
+/* zarovnani na stred quliva debilnimu IE 5.0 */
+#main .nadpis {
+	background: White url("/img/tab-top-b.gif") repeat-x top;
+	text-align: center;
+}
+#main .spodek {
+	background: White url("/img/tab-top-b.gif") repeat-x bottom;
+	text-align: center;
+        vertical-align: bottom;
+	font-size: 80%;	
+}
+
+#main .ram {
+	background-color: white;
+	clear: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.forum .ram {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+div.forumer .nadpis, div.forumer .spodek {
+	float: left;
+	height: 41px;
+	width: 532px;
+	background-color: white;
+}
+
+#amain div.forumer {
+	text-align: center;
+	font-size: 80%;
+}
+
+div.forumer div.spodek {
+	text-align: center;
+	font-size: 80%;
+}
+
+div.imager div.spodek {
+	text-align: center;
+	font-size: 10px;
+}
+
+#main div.nadpis h1 {
+	font-weight: bolder;
+	font-size: 150%;
+	letter-spacing: 4px;
+	margin: 0;
+	padding-top: 15px;
+}
+
+div.mainer .ram p, div.forumer .ram p {
+	border: 0px;
+	margin: 0px;
+	padding: 7px 0px 7px 0px;
+	text-align: justify;
+}
+
+div.forum .ram div {
+	padding-right: 10px;
+	text-align: justify;
+}
+
+div.mainer .ram hr {
+	border: 0px;
+	width: 60%;
+	color: black;
+	background-color: black;
+	height: 1px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+#main .ram h1 {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border: 0px;
+	margin: 0px;
+	font-size: 125%;
+}
+
+#main .ram h2 {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border: 0px;
+	margin: 0px;
+	font-size: 120%;
+}
+
+#main .ram h3 {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border: 0px;
+	margin: 0px;
+	font-size: 110%;
+}
+
+div.mainer .ram ol {
+	padding-top: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.mainer table.image {
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.mainer table.image td {
+	width: 130px;
+	height: 130px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+div.mainer a img {
+	border: 1px solid Black;
+	padding: 1px;
+	margin: 2px;
+}
+
+div.mainer img {
+	border: 0px;
+	margin: 2px;
+}
+
+
+div.mainer table.image img:visited {
+	border: 1px solid Black;
+}
+
+div.mainer table.image img:hover {
+	border: 1px solid #FF5B5B;
+}
+
+div.mainer form .input-text {
+	border: 1px solid black;
+}
+
+div.mainer form .submit {
+	border: 1px solid black;
+	background-color: white;
+	color: black;
+}
+
+div.imager div.ram {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.imager .nadpis, div.imager .spodek {
+	float: left;
+	height: 41px;
+	width: 622px;
+	background-color: white;
+}
+
+img.image_big {
+	border: 1px solid Black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.image_desc {
+	padding-bottom: 40px;
+	font-size: 80%;
+}
+
+#sidebar .nadpis, #sidebar .spodek {
+	float: left;
+	height: 41px;
+	width: 97px;
+	background-color: black;
+}
+
+#sidebar2 .nadpis, #sidebar2 .spodek {
+	float: left;
+	height: 41px;
+	width: 107px;
+	background-color: black;
+}
+
+#sidebar .spodek, #sidebar2 .spodek {
+	vertical-align: bottom;
+	font-size: 80%;
+}
+
+#sidebar .ram, #sidebar2 .ram, div.mainer .ram, div.forumer .ram, div.imager .ram {
+	border-left: 10px solid black;
+	border-right: 10px solid black;
+}
+
+#sidebar .ram, #sidebar2 .ram {
+	background-color: black;
+	clear: left;
+}
+
+#sidebar2 .autor {
+	text-align: right;
+	font-style: italic;
+	font-size: 80%;
+	padding-bottom: 20px;
+}
+
+#sidebar .mailnews {
+	font-size: 80%;
+}
+
+#sidebar .mailnews form {
+	text-align: right;
+}
+
+#sidebar .mailnews form .email {
+	width: 148px;
+}
+
+#sidebar .mailnews form .submit {
+	border: 1px solid white;
+	background-color: Black;
+	color: White;
+}
+
+.reader {
+	display: none;
+}
+
+.forum_last {
+	font-size: 80%;
+}
+
+.center, div.mainer .ram p.center, div.forumer .ram p.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+form {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+dl { margin-bottom: 0; }
+
+
+#styleSwitcher {
+	margin: 0;
+}
+* html #styleSwitcher {
+} 
+#styleSwitcher select {
+}
+#switcherSubmit {
+}
+
+/* FORUM */
+div.forum div.forum-user {
+	background-color: #FF5B5B;
+	padding-left: 5px;
+}
+
+div.forum div.forum-user, div.forum div.forum-visitor {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+div.forum div.responde {
+	padding-bottom: 10px;
+	font-size: 80%;
+	border-top: 1px dashed Black;
+}
+
+div.forum .small-font {
+	font-size: 80%;
+}
+
+div.forum .list-roots {
+	padding-left: 5px;
+	padding-bottom: 10px;
+}
+
+div.forum .list-roots a {
+	font-weight: bold;
+}
+
+div.forum .forum-user a:hover {
+	color: White;
+}
+
+ul {
+	padding-top: 0px;
+	margin-top: 0px;
+}

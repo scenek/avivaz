@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/2000/REC-xhtml1-20000126/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="content-language" content="cs" />
+	<meta name="author" content="Stepan Cenek; scenek(at)macroware.cz" />
+	<meta name="copyright" content="Stepan Cenek [ssimon]" />
+	<meta name="description" content="Aviváž -- klub přátel směsi zelené a mlíčka" />
+	<title>aviváž club  :: {{ page.title }}</title>
+	<link title="normal" rel="stylesheet" type="text/css" href="style/avivaz.css" />
+	<link title="víc mlíčka" rel="alternate stylesheet" type="text/css" href="/style/avivaz-milky.css" />
+	<link title="víc zelené" rel="alternate stylesheet" type="text/css" href="/style/avivaz-minty.css" />
+	<link title="o co vám sakra de?" rel="alternate stylesheet" type="text/css" href="/style/avivaz-pink.css" />
+ 	<link title="den poté (eeblee)" rel="alternate stylesheet" type="text/css" href="/style/avivaz-eeblee.css" />
+	<link title="den poté (aaaach)" rel="alternate stylesheet" type="text/css" href="/style/avivaz-lovely.css" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<script type="text/javascript" src="/js/flash_fix.js"></script>
+	<script type="text/javascript" src="/js/styleswitcher.js"></script>
+	<script type="text/javascript" src="/js/init.js"></script>
+</head>
+
+<body>
+
+<div id="container">
+	<div id="header">
+		<img src="img/avivaz_logo.gif" alt="aviváž club" title="aviváž club" width="572" height="200" />
+	</div>
+
+	<div id="sidebar">
+		<div class="roh-lh"></div>
+  		<div class="nadpis"><img src="img/menu_club.gif" alt="club" title="club" width="97" height="41" /></div>
+		<div class="roh-ph"></div>
+  		<div class="ram">
+			<a href="avivaz.html">co je to aviváž?</a><br />
+			<a href="${url}index.cgi?o_nas">o aviváž clubu</a><br />
+			<a href="${url}index.cgi?priprava">příprava aviváže</a><br />
+			<a href="${url}index.cgi?prijimani">přijímání nových členů</a><br />
+			<a href="${url}index.cgi?poprve">tenkrát poprvé</a><br />
+			<a href="${url}index.cgi?puvod">o původu aviváže</a><br />
+			<a href="${url}index.cgi?avi_vanoce">vánoce s aviváží</a><br />
+			<a href="${url}index.cgi?popelka">tři ořechy pro popelku</a><br />
+			<a href="${url}akce.cgi">akce a re-akce</a><br />
+			<a href="${url}aviblog.cgi">aviblog</a><br />
+			<a href="${url}index.cgi?trika">avivážová trika</a><br />
+			<a href="${url}index.cgi?download">ke stažení</a><br />
+			<a href="forum.cgi">fórum</a><br />
+		</div>
+		<div class="roh-ld"></div><div class="spodek"></div><div class="roh-pd"></div>
+		<div class="roh-lh"></div>
+		<div class="nadpis"><img src="img/menu_muj_styl.gif" alt="můj styl" title="můj styl" width="97" height="41" /></div>
+		<div class="roh-ph"></div>
+		<div class="ram"><div class="center"><div id="navStyle"></div></div></div>
+		<div class="roh-ld"></div><div class="spodek"></div><div class="roh-pd"></div>
+	</div>
+	<div id="main">
+		<div class="mainer">
+			<div class="roh-lh"></div>
+			<div class="nadpis"><h1>{{ page.title }}</h1></div>
+			<div class="roh-ph"></div>
+			<div class="ram">
+				{{ content }}
+			</div>
+			<div class="roh-ld"></div>
+			<div class="spodek">$footer <!-- todo --></div>
+			<div class="roh-pd"></div>
+	 	</div> 	
+	</div>
+	<div id="footer">
+		<strong>Avivaz.cz</strong> jsou stránky, které připravuje <strong>Aviváž club: přátelé bájné směsi zelené a mlíčka</strong>.<br />
+		Myslíte si, že by na těchto stránkách měla být <a href="mailto:stepan(at)macroware(tečka)cz">vaše reklama</a>?<br />
+		<a href="http://www.macroware.cz" onclick="return!window.open(this.href);" title="Macroware s.r.o., profesionální webhosting">Macroware webhosting</a>, webmaster <a href="mailto:stepan(at)macroware(tečka)cz">stepan(at)macroware(tečka)cz</a>
+	</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+  _uacct = "UA-222132-1";
+  _uOsr.push("seznam.cz");     _uOkw.push("w");
+  _uOsr.push("centrum.cz");    _uOkw.push("q");
+  _uOsr.push("jyxo.cz");       _uOkw.push("s");
+  _uOsr.push("atlas.cz");      _uOkw.push("q");
+  _uOsr.push("zoohoo.cz");     _uOkw.push("q");
+  _uOsr.push("tiscali.cz");    _uOkw.push("query");
+  _uOsr.push("1.cz");          _uOkw.push("q");
+  _uOsr.push("volny.cz");      _uOkw.push("search");
+
+  for (var i=1; i<_uOsr.length; i++) {
+    if( _uOsr[i] == "search") {
+      _uOsr[i] = "search.com";
+      break;
+    }
+  }
+  urchinTracker();
+</script>
+</body>
+</html>
+
