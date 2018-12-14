@@ -4,3 +4,12 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+collections_dir: _collections
+collections:
+  akce:
+    output: true
+    permalink: /:collection/:path:output_ext
+  aviblog:
+    output: true
+    permalink: /:collection/:path:output_ext

@@ -1,0 +1,12 @@
+---
+title: Akce a Re-Akce
+---
+
+<table border="0" cellspacing="7" cellpadding="0">
+{% for akce in site.akce %}
+    <tr><td align="right"><em>{{ akce.datum }}</em></td>
+        <td> - </td>
+        <td><a href="{{ akce.url }}">{{ akce.title }}</a></td>
+    </tr>
+{% endfor %}
+</table>
