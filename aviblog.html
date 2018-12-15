@@ -2,7 +2,7 @@
 title: Aviblog
 ---
 
-{% for blog in site.aviblog %}
-        <p><a href="{{ blog.url }}">{{ blog.title }}</a></p>
+{% assign aviblog_sorted = (site.aviblog | sort: 'date') | reverse %}
+{% for blog in aviblog_sorted %}
+<p><a href="{{ blog.url }}">{{ blog.title }}</a> - {{ blog.author}}, {{ blog.datum }}</p>
 {% endfor %}
-</table>
