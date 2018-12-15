@@ -3,8 +3,9 @@ title: Akce a Re-Akce
 ---
 
 <table border="0" cellspacing="7" cellpadding="0">
-{% for akce in site.akce %}
-    <tr><td align="right"><em>{{ akce.datum }}</em></td>
+{% assign akce_sorted = (site.akce | sort: 'date') | reverse %}
+{% for akce in akce_sorted %}
+    <tr><td align="right"><em>{{ akce.date }} {{ akce.datum }}</em></td>
         <td> - </td>
         <td><a href="{{ akce.url }}">{{ akce.title }}</a></td>
     </tr>
